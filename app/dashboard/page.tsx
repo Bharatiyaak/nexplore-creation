@@ -1,9 +1,9 @@
-import { UserHeader } from "@/components/dashboard/user-header"
-import { Feed } from "@/components/posts/feed"
+import { UserHeader } from "@/components/dashboard/user-header";
+import { Feed } from "@/components/Feed";
 
 export const metadata = {
   title: "Dashboard - Nexplore",
-}
+};
 
 export default function DashboardPage() {
   return (
@@ -11,5 +11,5 @@ export default function DashboardPage() {
       <UserHeader />
       <Feed />
     </div>
-  )
+  );
 }
